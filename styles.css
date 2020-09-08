@@ -1,7 +1,56 @@
-#id1 {
-  background: red;
+#container {
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
 }
 
-.p1 {
-  color: yellow;
+#navigation-col {
+  background: yellow;
+  width: 250px;
+  height: 100vh;
+  margin: 10px;
+  /* padding: 20px; */
+}
+
+#tweets-col {
+  background: green;
+  width: 500px;
+  height: 100vh;
+  margin: 10px;
+  padding: 20px;
+}
+
+#trends-col {
+  background-color: red;
+  width: 300px;
+  height: 100vh;
+  margin: 10px;
+  padding: 20px;
+}
+
+#nav-row-1 {
+  background-color: black;
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+}
+
+#nav-row-2 {
+  background-color: black;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: red;
+  margin-right: 10px;
+}
+
+.home-btn {
+  color: red;
 }
