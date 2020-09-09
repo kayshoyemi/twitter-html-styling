@@ -5,14 +5,17 @@
   align-items: center;
   justify-content: center;
   padding: 40px;
+  font-family: "Open Sans", Roboto, Ubuntu, Tahoma, Geneva, sans-serif;
 }
 
 #navigation-col {
-  background: yellow;
-  width: 250px;
+  background: white;
+  width: 300px;
   height: 100vh;
   margin: 10px;
-  /* padding: 20px; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 #tweets-col {
@@ -25,32 +28,38 @@
 
 #trends-col {
   background-color: red;
-  width: 300px;
+  width: 350px;
   height: 100vh;
   margin: 10px;
   padding: 20px;
 }
 
-#nav-row-1 {
-  background-color: black;
-  height: 50px;
-  margin-bottom: 10px;
-  display: flex;
-  margin: 10px;
-  flex-direction: row;
-}
-
-#nav-row-2 {
-  background-color: black;
-  height: 50px;
-  margin-bottom: 10px;
-}
-
-.icon {
-  color: red;
+#icon {
+  color: blue;
   margin-right: 10px;
 }
 
-.home-btn {
-  color: red;
+#nav-btn {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+#explore-btn {
+  color: black;
+  margin-right: 10px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.home {
+  color: #00acee;
+}
+.explore {
+  color: #00acee;
+}
+.notifications {
+  color: #00acee;
 }
