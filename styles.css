@@ -167,3 +167,9 @@ svg {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.name-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
