@@ -31,7 +31,7 @@ svg {
 }
 
 #trends-col {
-  background-color: red;
+  background-color: white;
   width: 350px;
    margin: 10px; 
   padding: 20px;
@@ -202,4 +202,44 @@ svg {
 .huski-puppy-image-3 {
   height: 400px;
   width: 100%;
+}
+
+#search-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+box-sizing: border-box;
+  border: 2px solid #00acee;
+  border-radius: 2px;
+  font-size: 2px;
+  background-color: grey;
+  background-image: url('searchicon.png');
+  background-position: 2px 2px; 
+  /* background-repeat: no-repeat; */
+  padding: 4px 4px 4px 4px;
+}
+
+#trends-row {
+  display: flex;
+  flex-direction: column;
+  border: indigo;
+}
+.trends-for-you {
+  display: flex;
+  border: solid black;
+}
+.breaking-news-2 {
+display: flex;
+border: solid blue;
+justify-content: space-between;
+border-bottom-width: 1px;
+border-top-width: 1px;
+border-bottom-style: solid;
+border-top-style: solid;
+}
+.huski-puppy-image-5 {
+  border: solid purple;
+  height: 80px;
+  width: 80px;
 }
